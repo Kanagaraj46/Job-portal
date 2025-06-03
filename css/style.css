@@ -1,0 +1,206 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+.applicant-box {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.applicant-box p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.applicant-box a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.applicant-box a:hover {
+    text-decoration: underline;
+}
+
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Centered Form */
+.form-container {
+    width: 40%;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Fields */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #2575fc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+
+
+/* Apply Button */
+.apply-btn {
+    background: #28a745;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.apply-btn:hover {
+    background: #218838;
+}
+
+/* Profile Box */
+.profile-box {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+.profile-box img {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the area properly */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+.profile-box a {
+   text-decoration: none;
+   color:white;
+}
+
+.job-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.job-info {
+    flex: 1;
+}
+
+
+.job-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.job-box h2, h3 {
+    color: #333;
+}
+
+.job-box a {
+    color: #666;
+    font-size: 16px;
+}
+
+.job-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.job-box button {
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.job-box button:hover {
+    background-color: #434190;
+}
+
+
